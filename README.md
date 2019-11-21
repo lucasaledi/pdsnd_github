@@ -1,15 +1,19 @@
 ### Date created
-Include the date you created this project and README file.
+2019-12-21
 
 ### Project Title
-Replace the Project Title
+PDSND Bikeshare
 
 ### Description
-Describe what your project is about and what it does
+This project was created as a requirement from Udacity's PDSND program. It's an interactive script that takes in raw input to create an interactive experience in the terminal that answers questions about the dataset.
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+github.com/lucasaledi
+udacity.com
+medium.com/@kadek
