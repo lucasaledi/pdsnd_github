@@ -50,9 +50,8 @@ def load_data(city, month, day):
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
     """
-    """
-    This is the part of the code which load all cities data
-    """
+
+    #Load data from citiesa
     if city == 'all':
         df = pd.concat([pd.read_csv(f) for f in glob.glob('*.csv')], ignore_index = True, sort=False)
     else:
