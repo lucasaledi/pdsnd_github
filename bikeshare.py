@@ -20,9 +20,9 @@ def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     cities = list(CITY_DATA.keys())
     cities.append('all')
-    city = input('\nWould you like to filter the data by city? \n\nSelect from chicago, new york, washington or all? >> ').lower()
+    city = input('\nWould you like to filter the data by city? \n\nSelect from Chicago, New York, Washington or all? >> ').lower()
     while city not in cities:
-        city = input('\nThat\'s not a valid city. \n\nPlease, enter chicago, new york, washington or all. >> ')
+        city = input('\nThat\'s not a valid city. \n\nPlease, enter Chicago, New York, Washington or all. >> ')
 
     # TO DO: get user input for month (all, january, february, ... , june)
     months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
