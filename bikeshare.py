@@ -41,7 +41,7 @@ def get_filters():
 
 def load_data(city, month, day):
     """
-    Loads data for the specified city and filters by month and day if applicable.
+    Loads data for the specified city or cities and filters by month and day if applicable.
 
     Args:
         (str) city - name of the city to analyze
@@ -50,6 +50,8 @@ def load_data(city, month, day):
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
     """
+
+    #Load data from citiesa
     if city == 'all':
         df = pd.concat([pd.read_csv(f) for f in glob.glob('*.csv')], ignore_index = True, sort=False)
     else:
