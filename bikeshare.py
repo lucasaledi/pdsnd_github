@@ -31,9 +31,9 @@ def get_filters():
         month = input('\nThat\'s not a valid month. \n\nPlease, select from January, February, March, April, May, June or all. >> ')
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
-    day = input('\nWould you like to filter the data by day? \n\nSelect from monday, tuesday, wednesday, thursday, friday, saturday, sunday or all. >> ').lower()
+    day = input('\nWould you like to filter the data by day? \n\nSelect from Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday or all. >> ').lower()
     while day not in days:
-        day = input('\nThat\'s not a valid entry. \n\nSelect from monday, tuesday, wednesday, thursday, friday, saturday, sunday or all. >> ')
+        day = input('\nThat\'s not a valid entry. \n\nSelect from Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday or all. >> ')
 
     print("_"*40)
     return city, month, day
